@@ -1,0 +1,32 @@
+{
+  "name": "initialstructure",
+  "version": "1.0.0",
+  "description": "Implement a web application that lets the user write and scroll through reviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --check .",
+    "prepare": "husky",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hovercraft97/ExamWebAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hovercraft97/ExamWebAPI/issues"
+  },
+  "homepage": "https://github.com/Hovercraft97/ExamWebAPI#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
